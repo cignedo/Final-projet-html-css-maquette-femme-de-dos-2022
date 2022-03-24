@@ -1,0 +1,315 @@
+
+.conteneur {
+    display:inline-block;
+    position: relative;    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0;
+    left: 0;
+    right: 10;
+    top: 2%;
+    color: white;
+    width: 70%;
+}
+
+.textfont{
+    justify-content: space-evenly;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-top:300px;
+    left: 0;
+    right: 10;
+    top: 2%;
+    color: white;
+    width: 70%;
+}
+
+img{
+   max-width: 100%;
+   max-height: 100%;   
+}
+
+.femme{
+    filter: brightness(50%);
+    background-image: url(/femme\ de\ dos.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.signup{
+    background-color:grey;
+    color: white;
+    margin-right: 200px;
+}
+
+.boutonlog{
+    margin-left: 200px;
+}
+
+.mailfont{
+    background-color:gray;
+    width: 180px;
+    height: 44px;
+    padding: 10px;
+    color: white;
+}
+
+.submfont{
+    width: 200px;
+    height: 43px;
+    margin-right: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#conteneur1{/* bloc Texte Our products*/
+    background-color:#F2F3F4;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;    
+}
+
+.cas{/*Texte Our products*/
+    width: 50%;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.ourproduct{
+    font-size: xx-large;
+}
+
+.textimg{
+    font-weight: 700;
+    text-align: center;
+}
+
+#conteneur2{/*bloc avec les 6 images*/
+    background-color: #F2F3F4;
+    max-width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);            
+}
+
+.cas1{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    max-width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.int{
+    height: 60px;
+    text-align: center;   
+}
+
+#conteneur3{/*bloc ordinateur-texte*/
+    width: 100%;
+    height: 450px;
+    text-align: center;   
+}
+
+.ordinateur{
+    margin-top: 40px;
+    max-width: 450px;
+    height: auto;
+}
+
+.perfect{/*texte principal sous l'ordinateur*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.int1{/*texte sous ordinateur*/
+    width:100%;
+    text-align: center;
+}
+
+#conteneur4{/*bloc avec les 6 icone et texte*/
+    max-width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);            
+}
+
+.cas3{
+    max-width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: small;    
+}
+
+.cas30{
+    text-align: justify;
+}
+
+.int2{
+    margin-top: 20px;
+}
+
+.power, .drapeau, .ancre, .typo, .parapluie, .bouton{
+    width: 15%;
+    height: 30px;
+    border-radius: 20%;    
+}
+
+#conteneur5{
+    background-color: #F2F3F4;
+    width: 100%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: justify;
+    font-size:small;
+} 
+
+.see-features{
+    width: 150%;
+    height: 530px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.img-ordifont{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: auto;
+    height: 500px;
+}
+
+.typo1{
+    font-size:xx-large;
+}
+
+.typo2{
+    font-size:large;
+}
+
+.more-features{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.val{
+    width: 20px;
+}
+
+#conteneur6{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.users{
+    margin-top: 70px;
+}
+
+.text3{
+    margin-top: 30px;
+    font-size: large;
+}
+    
+.profil-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.typo3{
+    font-size:xxx-large;
+}
+
+#conteneur7{
+    background-color: #F2F3F4;
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.blocmail{
+    margin-top: 20px;
+}
+
+.subs{
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: x-large;
+    color: gray;
+}
+
+.mail{
+    background-color:#D7DBDD;
+    color: gray;
+    width: 350px;
+    height: 5px;
+    padding: 10px;
+}
+
+.subm{
+    width: 100px;
+    height: 28px;
+    margin-right: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#conteneur8{
+    width: 100%;
+    height: 230px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);   
+}
+
+.colonne{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.fab{
+    padding: 3px;
+}
+
+footer{/*footer (bordures, couleur)*/
+    width: 100%;
+    height: 100px;
+    display: grid;
+    border-top: 5px solid #F2F3F4 ;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+
+.textfoot{
+    margin-top: 30px;
+}
+
+
